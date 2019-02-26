@@ -1,1 +1,1 @@
-# init
+# Attempt at hashcode 2019 sample problem
