@@ -31,7 +31,7 @@ def processFile(fileName):
 
 # Output the slideshow
 def outputFile(slideshow):
-    outfile = open("sampleOutput.txt","w")
+    outfile = open("files/Output.txt","w")
     outfile.write(str(len(slideshow)) + "\n")
 
     for slide in slideshow:
@@ -73,7 +73,7 @@ def getInterest(slide1, slide2):
 
 
 def main():
-    fileName = "e_shiny_selfies.txt"
+    fileName = "files/e_shiny_selfies.txt"
     #"b_lovely_landscapes.txt"
     #"c_memorable_moments.txt"
     #"d_pet_pictures.txt"
