@@ -29,11 +29,22 @@ def processFile(fileName):
 
     pizza1 = Pizza(R, C, Min, Max, numT, numM)
 
+
+def outputFile():
+    out = "abc"
+    outfile = open("sampleOutput.txt","w")
+    outfile.write(out)
+    outfile.close()
+
+
 def main():
     fileNames = ["a_example.in", "b_small.in", "c_medium.in", "d_big.in"]
 
     for file in fileNames:
         processFile(file)
+
+        
+    outputFile()
 
 
 if __name__=="__main__":
